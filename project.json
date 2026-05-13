@@ -1,0 +1,27 @@
+{
+  "overview": "Premium React landing page for Himmanshu Enterprises — a Delhi NCR IT repair and networking company serving since 2007. Features a modern Navy Blue design with all key sections: hero, services, about, contact, and more.",
+  "features": [
+    "Hero section with CTA buttons",
+    "18 service cards with hover effects",
+    "Why Choose Us feature cards",
+    "About section with split layout",
+    "Brand logo slider",
+    "Process timeline",
+    "Emergency CTA banner",
+    "Contact form with map placeholder",
+    "Floating WhatsApp button",
+    "Professional footer with social links"
+  ],
+  "category": "business",
+  "tags": [
+    "landing-page",
+    "it-repair",
+    "react",
+    "vite",
+    "tailwind",
+    "navy-blue",
+    "corporate",
+    "delhi-ncr"
+  ],
+  "last_updated": "2026-05-13T10:32:15.657Z"
+}
