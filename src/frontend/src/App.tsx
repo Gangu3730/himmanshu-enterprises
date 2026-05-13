@@ -1,5 +1,4 @@
 import About from "./components/About";
-import Brands from "./components/Brands";
 import Contact from "./components/Contact";
 import EmergencyCTA from "./components/EmergencyCTA";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
@@ -19,7 +18,6 @@ export default function App() {
       <Services />
       <WhyChooseUs />
       <About />
-      <Brands />
       <Process />
       <EmergencyCTA />
       <Contact />

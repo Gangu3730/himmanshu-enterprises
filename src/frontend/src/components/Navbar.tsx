@@ -40,19 +40,14 @@ export default function Navbar() {
             className="flex-shrink-0"
             aria-label="Himmanshu Enterprises Home"
           >
-            <img
-              src="https://himmanshuenterprises.com/wp-content/uploads/2025/06/HE-WEB-LOGO-1-1.png"
-              alt="Himmanshu Enterprises"
-              className="h-10 lg:h-12 w-auto object-contain"
-              onError={(e) => {
-                const target = e.currentTarget;
-                target.style.display = "none";
-                const span = document.createElement("span");
-                span.className = "text-white font-bold text-lg tracking-wide";
-                span.textContent = "HE";
-                target.parentElement?.appendChild(span);
-              }}
-            />
+            <span className="flex flex-col leading-none">
+              <span className="text-white font-bold text-xl tracking-tight">
+                Himmanshu
+              </span>
+              <span className="text-white/70 font-semibold text-xs tracking-[0.18em] uppercase">
+                Enterprises
+              </span>
+            </span>
           </button>
 
           {/* Desktop Nav */}

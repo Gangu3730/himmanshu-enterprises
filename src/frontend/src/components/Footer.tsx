@@ -40,14 +40,14 @@ export default function Footer() {
         >
           {/* Brand */}
           <div className="lg:col-span-1">
-            <img
-              src="https://himmanshuenterprises.com/wp-content/uploads/2025/06/HE-WEB-LOGO-1-1.png"
-              alt="Himmanshu Enterprises"
-              className="h-10 w-auto object-contain mb-4"
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-              }}
-            />
+            <span className="flex flex-col leading-none mb-4 inline-flex">
+              <span className="text-white font-bold text-xl tracking-tight">
+                Himmanshu
+              </span>
+              <span className="text-white/60 font-semibold text-xs tracking-[0.18em] uppercase">
+                Enterprises
+              </span>
+            </span>
             <p className="text-white/60 text-sm leading-relaxed mb-5">
               Delhi NCR's trusted IT repair and networking experts since 2007.
               Serving homes and businesses across Nehru Place and all of Delhi
@@ -211,15 +211,7 @@ export default function Footer() {
             © {currentYear} Himmanshu Enterprises. All rights reserved.
           </p>
           <p className="text-white/40 text-xs">
-            Built with love using{" "}
-            <a
-              href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "")}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white/60 hover:text-white transition-colors"
-            >
-              caffeine.ai
-            </a>
+            Built with AI • Powered by YSR Infotech
           </p>
         </div>
       </div>

@@ -1918,6 +1918,9 @@ video {
 .leading-tight {
   line-height: 1.25;
 }
+.tracking-\[0\.18em\] {
+  letter-spacing: 0.18em;
+}
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -3619,10 +3622,6 @@ video {
 
   .lg\:block {
     display: block;
-  }
-
-  .lg\:h-12 {
-    height: 3rem;
   }
 
   .lg\:h-20 {

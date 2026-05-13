@@ -1,7 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
 
 const highlights = [
-  "Serving Delhi NCR since 2007 — 17+ years of trusted service",
+  "Serving Delhi NCR since 2007 — 19+ years of trusted service",
   "Certified technicians for Apple, HP, Dell, Lenovo, Asus, Acer, Toshiba, Compaq, HCL",
   "Onsite repair at your home or office — no need to travel",
   "Pay After Fix policy — you pay only when you're satisfied",
@@ -38,7 +38,7 @@ export default function About() {
                 background: "linear-gradient(135deg, #0d2145, #1a3a6e)",
               }}
             >
-              <span className="text-3xl font-bold">17+</span>
+              <span className="text-3xl font-bold">19+</span>
               <span className="text-xs text-white/80 text-center leading-tight">
                 Years of Experience
               </span>

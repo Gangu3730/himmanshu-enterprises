@@ -1,7 +1,7 @@
-import { Clock, MessageCircle, Phone, Shield, Wrench } from "lucide-react";
+import { Clock, MessageCircle, Phone, Wrench } from "lucide-react";
 
 const stats = [
-  { value: "17+", label: "Years Experience" },
+  { value: "19+", label: "Years Experience" },
   { value: "50K+", label: "Devices Repaired" },
   { value: "5000+", label: "Happy Clients" },
   { value: "24/7", label: "Support Available" },
@@ -46,12 +46,6 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-white space-y-6 animate-fadeInLeft">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white/90 text-xs font-semibold px-4 py-2 rounded-full tracking-widest uppercase">
-              <Shield size={14} />
-              Trusted IT Partner Since 2007
-            </div>
-
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-shadow">
               Professional Laptop, Computer &{" "}
               <span style={{ color: "#7eb3ff" }}>Networking</span> Repair

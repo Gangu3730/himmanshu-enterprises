@@ -18960,7 +18960,7 @@ const __iconNode = [
 ];
 const Zap = createLucideIcon("zap", __iconNode);
 const highlights = [
-  "Serving Delhi NCR since 2007 — 17+ years of trusted service",
+  "Serving Delhi NCR since 2007 — 19+ years of trusted service",
   "Certified technicians for Apple, HP, Dell, Lenovo, Asus, Acer, Toshiba, Compaq, HCL",
   "Onsite repair at your home or office — no need to travel",
   "Pay After Fix policy — you pay only when you're satisfied",
@@ -18997,7 +18997,7 @@ function About() {
             background: "linear-gradient(135deg, #0d2145, #1a3a6e)"
           },
           children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-3xl font-bold", children: "17+" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-3xl font-bold", children: "19+" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs text-white/80 text-center leading-tight", children: "Years of Experience" })
           ]
         }
@@ -19055,102 +19055,6 @@ function About() {
       )
     ] })
   ] }) }) });
-}
-const brands = [
-  {
-    name: "Apple",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
-  },
-  {
-    name: "Dell",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg"
-  },
-  {
-    name: "HP",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg"
-  },
-  {
-    name: "Lenovo",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Lenovo_logo_2015.svg"
-  },
-  {
-    name: "Acer",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/0/00/Acer_2011.svg"
-  },
-  {
-    name: "Asus",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg"
-  },
-  {
-    name: "Toshiba",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Toshiba_logo.svg"
-  },
-  {
-    name: "Samsung",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
-  },
-  {
-    name: "Sony",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg"
-  },
-  {
-    name: "Microsoft",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
-  }
-];
-function Brands() {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    "section",
-    {
-      id: "brands",
-      className: "py-16",
-      style: { backgroundColor: "#f8fafc" },
-      children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-10", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "p",
-            {
-              className: "text-sm font-semibold tracking-widest uppercase mb-2",
-              style: { color: "#6b7280" },
-              children: "Brands We Service"
-            }
-          ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "h2",
-            {
-              className: "text-2xl lg:text-3xl font-bold",
-              style: { color: "#0a1628" },
-              children: "All Major Brands, One Expert Team"
-            }
-          )
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "div",
-          {
-            className: "grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-10 gap-4 items-center",
-            "data-ocid": "brands.list",
-            children: brands.map((brand, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "div",
-              {
-                className: "flex flex-col items-center justify-center p-4 bg-white rounded-xl border border-gray-100 hover:shadow-card hover:border-navy-800 transition-all duration-200 group",
-                style: { borderColor: "#e5e7eb" },
-                "data-ocid": `brands.item.${i + 1}`,
-                children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "img",
-                  {
-                    src: brand.logo,
-                    alt: brand.name,
-                    className: "h-8 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 opacity-60 group-hover:opacity-100"
-                  }
-                )
-              },
-              brand.name
-            ))
-          }
-        )
-      ] })
-    }
-  );
 }
 const serviceOptions = [
   "Laptop Repair",
@@ -19695,17 +19599,10 @@ function Footer() {
             style: { borderColor: "rgba(255,255,255,0.1)" },
             children: [
               /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-1", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "img",
-                  {
-                    src: "https://himmanshuenterprises.com/wp-content/uploads/2025/06/HE-WEB-LOGO-1-1.png",
-                    alt: "Himmanshu Enterprises",
-                    className: "h-10 w-auto object-contain mb-4",
-                    onError: (e) => {
-                      e.currentTarget.style.display = "none";
-                    }
-                  }
-                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "flex flex-col leading-none mb-4 inline-flex", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-bold text-xl tracking-tight", children: "Himmanshu" }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white/60 font-semibold text-xs tracking-[0.18em] uppercase", children: "Enterprises" })
+                ] }),
                 /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/60 text-sm leading-relaxed mb-5", children: "Delhi NCR's trusted IT repair and networking experts since 2007. Serving homes and businesses across Nehru Place and all of Delhi NCR." }),
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-3", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -19878,27 +19775,14 @@ function Footer() {
             currentYear,
             " Himmanshu Enterprises. All rights reserved."
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-white/40 text-xs", children: [
-            "Built with love using",
-            " ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "a",
-              {
-                href: `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "")}`,
-                target: "_blank",
-                rel: "noopener noreferrer",
-                className: "text-white/60 hover:text-white transition-colors",
-                children: "caffeine.ai"
-              }
-            )
-          ] })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/40 text-xs", children: "Built with AI • Powered by YSR Infotech" })
         ] })
       ] })
     }
   );
 }
 const stats = [
-  { value: "17+", label: "Years Experience" },
+  { value: "19+", label: "Years Experience" },
   { value: "50K+", label: "Devices Repaired" },
   { value: "5000+", label: "Happy Clients" },
   { value: "24/7", label: "Support Available" }
@@ -19938,10 +19822,6 @@ function Hero() {
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16 lg:pt-32 lg:pb-24", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-white space-y-6 animate-fadeInLeft", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white/90 text-xs font-semibold px-4 py-2 rounded-full tracking-widest uppercase", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { size: 14 }),
-                "Trusted IT Partner Since 2007"
-              ] }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-shadow", children: [
                 "Professional Laptop, Computer &",
                 " ",
@@ -20094,23 +19974,10 @@ function Navbar() {
               onClick: () => handleNavClick2("#home"),
               className: "flex-shrink-0",
               "aria-label": "Himmanshu Enterprises Home",
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "img",
-                {
-                  src: "https://himmanshuenterprises.com/wp-content/uploads/2025/06/HE-WEB-LOGO-1-1.png",
-                  alt: "Himmanshu Enterprises",
-                  className: "h-10 lg:h-12 w-auto object-contain",
-                  onError: (e) => {
-                    var _a2;
-                    const target = e.currentTarget;
-                    target.style.display = "none";
-                    const span = document.createElement("span");
-                    span.className = "text-white font-bold text-lg tracking-wide";
-                    span.textContent = "HE";
-                    (_a2 = target.parentElement) == null ? void 0 : _a2.appendChild(span);
-                  }
-                }
-              )
+              children: /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "flex flex-col leading-none", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-bold text-xl tracking-tight", children: "Himmanshu" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white/70 font-semibold text-xs tracking-[0.18em] uppercase", children: "Enterprises" })
+              ] })
             }
           ),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "hidden md:flex items-center gap-6 lg:gap-8", children: [
@@ -20601,7 +20468,6 @@ function App() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Services, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(WhyChooseUs, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(About, {}),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Brands, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Process, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(EmergencyCTA, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Contact, {}),
